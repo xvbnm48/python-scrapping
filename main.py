@@ -29,7 +29,7 @@ def parse(data):
         #     name = name + br.text.strip()
         # if member.find_next_sibling('br'):
         #     name = name + member.find_next_sibling().text.strip()
-        # print(name) this is for debugging
+        # print(name)
 
         if name:
             dataDict = {
